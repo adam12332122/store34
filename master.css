@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #272727;
+    height: 100vh;
+    position: relative;
+}
+
+.menu {
+    margin: 0 auto;
+    width: 95%;
+    height: 55px;
+    padding: 20px 0 15px 20px;
+    background: #333333;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+}
+
+.menu h2 {
+    float: right;
+    margin: 16px 80px 00;
+    color: #00d9e4;
+}
+
+.menu h2 span {
+    color: #f50e0e;
+}
+
+.menu .gold {
+    padding-left: 15px;
+}
+
+.menu .gold .aa {
+    margin-top: 8px;
+}
+
+.menu .gold .aa li:hover {
+    background-color: #00d9e4;
+}
+
+.menu ul {
+    list-style: none;
+    margin-top: 0;
+    margin-left: -15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #00d9e4;
+    width: 140px;
+    height: 40px;
+    padding: 15px 35px;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    line-height: 42px;
+    text-align: center;
+    padding: 10px 15px;
+    color: #00d9e4;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 5px;
+    font-family: Arial, helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.menu li:hover {
+    color: #f50e0e;
+    background: #00d9e4;
+    box-shadow: 0 0 5px #00d9e4, 0 0 25px #00d9e4;
+}
+
+.menu ul ul {
+    display: none;
+}
+
+.menu ul li:hover>ul {
+    display: block;
+}
+
+.menu ul ul ul {
+    margin-left: 155px;
+    top: -1px;
+    position: absolute;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #f50e0e;
+}
+
+.clr {
+    clear: both;
+    margin-top: 970px;
+}
